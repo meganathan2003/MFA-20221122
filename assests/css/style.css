@@ -1,0 +1,142 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size: 18px;
+    font-weight: 400,700;
+}
+header{
+    display: flex;
+    flex-direction: row;
+    margin-top: 50px;
+}
+header{
+    justify-content: space-around;
+    align-items: center;
+
+}
+.head{
+    
+    margin-right: 410px;
+}
+.nav{
+    background-color:hsl(198, 28%, 93%) ;
+    padding: 13px;
+    width: 10%;
+    border-radius: 6px;
+    margin-right: 80px;
+
+
+}
+.nav h4{
+    text-align: center;
+    font-family: 'Barlow Condensed';
+    font-weight: 520;   
+    
+}
+.main-img{
+    float: right;
+    margin-right:280px;
+    margin-top: 60px;
+    
+}
+.main-img img{
+    border-radius: 15px;
+}
+main{
+    margin-left: 198px;
+    margin-top: 90px;
+}
+/* content */
+.sub-con {
+    font-size: 50px;
+    font-family: 'Barlow';
+    font-weight: 900;
+    color:hsl(220, 50%, 17%) ;
+
+
+}
+.comp-cont{
+    margin-top: 20px;
+    font-size: 17px;
+    font-family: 'Barlow',;
+    font-weight: 100;
+    color:hsl(221, 23%, 58%) ;
+    line-height: 25px;
+
+}
+.pre-order{
+    display: flex;
+    margin-top: 20px;
+    align-items: center;
+
+
+}
+.pre-order h3{
+    background-color:hsl(22, 89%, 52%);
+    padding: 12px;
+    text-align: center;
+    color: hsl(0, 0%, 100%);
+    border-radius: 9px;
+    font-family: 'Barlow';
+    font-weight: 700;
+    font-size: 15px;
+}
+
+.pre-order p{
+    margin-left: 30px;
+    font-family: 'Barlow';
+    font-weight: 700;
+    font-size: 17px;
+    color:hsl(221, 23%, 58%) ;
+}
+/* end of the computer content */
+.images{
+    display: flex;
+    /* flex-direction: row; */
+    margin-left: 200px;
+}
+.computer-img .phone-img{
+    margin-top: 100px;
+    /* margin-bottom: 200px; */
+    border-radius: 10px;
+}
+.images .glass{
+    margin-top: 100px;
+    margin-left: 30px;
+}
+.images .glass img{
+    border-radius: 12px;
+}
+.images .about-me{
+    margin-top: 180px;
+    margin-left: 80px;
+
+}
+
+  
+.footer{
+    margin-top:90px ;
+    display: flex;
+    margin-left: 200px;
+}
+.row1 h2{
+    margin-top: 3x0px;
+}
+.row1 img{
+    background-color: hsl(22, 89%, 52%);
+    border: 30px hsl(22, 89%, 52%);
+    padding: 15px;
+    border-radius: 6px;
+}
+.row1 h2{
+    text-transform: uppercase;
+}
+
+.row1 h2{
+    font-size: 700;
+    font-size: 20px;
+}
